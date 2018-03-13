@@ -17,7 +17,7 @@ public class SimplePrint {
 	private int pAge;
 	
 	/**
-	 * Main constructor
+	 * Main constructor of the class
 	 * @param pName
 	 * @param pAge
 	 */
@@ -28,7 +28,7 @@ public class SimplePrint {
 	}
 	
 	/**
-	 * Default constructor
+	 * Default constructor of the class
 	 */
 	public SimplePrint() {
 		this.pName = "";
@@ -36,14 +36,14 @@ public class SimplePrint {
 	}
 
 	/**
-	 * Main method
+	 * Main method of the class
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		
 		System.out.println("Ceramic Toasters:\nSubgroup Members:\n -Colin Tate\n -Mitch Peck\n -Tyler Wilson");
 
-		for (int i = 0; i < args.length; i++) {
+		for (int i=0;i<args.length;i++) {
 			System.out.println("args[ " + i + " ] = " + args[i]);
 		}
 	}
